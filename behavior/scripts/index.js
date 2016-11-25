@@ -24,7 +24,7 @@ exports.handle = function handle(client) {
         client.updateConversationState({
           weatherCity: city,
         })
-        console.log('User wants the weather in:', city.value)
+        console.log('Qual cidade você gostaria de saber o clima?:', city.value)
       }
     },
 
